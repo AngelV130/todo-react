@@ -1,4 +1,4 @@
-import MoonIcon from "./icons/MoonIcon"
+import MoonIcon from "../icons/MoonIcon"
 function Header() {
     return(
         <div className="container mx-auto px-4 pt-8">

@@ -1,22 +1,23 @@
-import Header from "./components/Header";
-import TodoMain from "./components/TodoMain";
+import NavBar from "./components/layouts/NavBars/NavBar.js";
+import HookApp from "./components/HooksApp/HookApp.js";
+import TodoApp from "./components/TodoApp/TodoApp.jsx";
+import RoutesNav from "./router/RoutesNav.js";
 function App() {
 
   return (
-    <>
-      <div className="bg-[url('./assets/images/bg-mobile-light.jpg')] bg-contain 
-      bg-no-repeat min-h-screen bg-gray-200">
+      <>
+      {  
+        //Work One
+          //<TodoApp></TodoApp>
+        //Work Two
+          //<HookApp></HookApp>
+        //Work Three
+        //<NavBar />
+        //<RoutesNav />
+      }
+      <h1>APP</h1>
+      </>
 
-        <Header />
-
-        <TodoMain />
-
-        <footer>
-          <p className="text-gray-500 text-center px-8 py-8 uppercase">Lista de tareas =)</p>
-        </footer>
-        
-      </div>
-    </>
   )
 }
 
