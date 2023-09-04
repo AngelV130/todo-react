@@ -1,10 +1,12 @@
 interface User {
-    id: number;
-    name: string;
-    username: string;
-    city: string;
-    phone: number;
-    address:Address;
+    id?: number;
+    name?: string;
+    username?: string;
+    city?: string;
+    phone?: number;
+    address?:Address;
+    email:string;
+    password:string
 }
 interface Address {
     street: string;

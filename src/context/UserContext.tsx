@@ -18,4 +18,4 @@ const UserProvider = ({children}:TodoProps) =>{
 }
 export default UserProvider
 
-export const useUserContext = () => useContext(UserLogging);
+export const useUserContext = () => useContext(UserLogging);  
